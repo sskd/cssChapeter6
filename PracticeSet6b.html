@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set 6 Flexbox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            padding: 34px;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 0 43px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+        }
+
+        .left {
+            height: 80vh;
+            width: 40vw;
+            background-color: aqua;
+
+        }
+
+        .right {
+            height: 80vh;
+            width: 40vw;
+            background-color: blueviolet;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe esse natus, excepturi
+            provident laboriosam quasi laborum veritatis aspernatur, ex officiis doloremque dolorum facilis. Magni error
+            amet perferendis reiciendis impedit quod sit necessitatibus fuga.</div>
+
+        <div class="right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dicta, iste modi, nemo quam
+            magnam suscipit odio, quisquam obcaecati ullam laudantium dolor cupiditate sapiente quidem quasi recusandae
+            non quas! Ut tempora suscipit provident veniam facilis iste molestias officia reiciendis odio exercitationem
+            adipisci deserunt deleniti aliquam cum, totam necessitatibus rerum repellendus inventore et expedita in
+            voluptate tenetur.</div>
+    </div>
+</body>
+
+</html>
